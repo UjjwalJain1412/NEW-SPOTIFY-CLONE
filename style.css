@@ -100,12 +100,13 @@ body {
   border-radius: 5px;
   background-color: #252525;
   position: relative;
+  transition: all 0.9s;
 }
 
 .card:hover {
   background-color: rgb(66, 65, 65);
   cursor: pointer;
-  transition: all 0.9s;
+  
   --a: 1;
 }
 
@@ -171,7 +172,7 @@ body {
 
 .playbar {
   position: fixed;
-  bottom: 10px;
+  bottom: 30px;
   width: 90%;
   padding: 12px;
   width: 70vw;
@@ -306,6 +307,7 @@ body {
   display: flex;
   justify-content: space-between;
   margin: 20px 0;
+  width: 100%;
 }
 
 .close {
